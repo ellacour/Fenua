@@ -78,6 +78,7 @@ class HomeIndex extends React.Component {
                                 <h2>Fenua</h2>
                             </header>
                             <p className="justify">Fenua signifie « territoire », « terre », « pays » (ou souvent « île ») en tahitien. Fenua project a pour but de promouvoir la culture polynésienne, les acteurs locaux qui œuvrent pour la protection et la valorisation de son territoire, ainsi que toute initiative qui contribue à une meilleure connaissance, protection et à un plus grand respect du monde marin. Si tu souhaites participer à notre projet n’hésite pas à nous contacter.</p>
+                            <p className="justify">Fenua means "territory", "land", "country" (or often "island") in Tahitian. Fenua project aims to promote Polynesian culture, local actors who work for the protection and enhancement of its territory, as well as any initiative that contributes to better knowledge, protection and greater respect for the marine world. If you would like to participate in our project, please do not hesitate to contact us.</p>
                             {/* <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul> */}
