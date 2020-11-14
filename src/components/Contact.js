@@ -1,10 +1,12 @@
 import React, {useState} from 'react'
+let mailcheck = require('mailcheck');
 
 const Contact = (props) => {
     // state declaration for contact form
     const [name, setName]=useState(undefined);
     const [email, setEmail]=useState(undefined);
     const [message, setMessage]=useState(undefined);
+    
 
     const nameHandleChange=(event)=>{
         setName(event.currentTarget.value)
@@ -25,19 +27,19 @@ const Contact = (props) => {
                     <form method="post" action="#">
                         <div className="field half first">
                             <label htmlFor="name">Name</label>
-                            <input type="text" name="name" id="name" value={name} onChange={nameHandleChange} />
+                            <input type="text" name="name" id="name" value={name} onChange={(e)=>{setName(undefined)}}   onBlur={nameHandleChange} />
                         </div>
                         <div className="field half">
                             <label htmlFor="email">Email</label>
-                            <input type="text" name="email" id="email" value={email} onChange={emailHandleChange} />
+                            <input type="text" name="email" id="email" value={email} onChange={(e)=>{setEmail(undefined)}}  onBlur={emailHandleChange} />
                         </div>
                         <div className="field">
                             <label htmlFor="message">Message</label>
-                            <textarea name="message" id="message" rows="6" value={message} onChange={messageHandleChange} ></textarea>
+                            <textarea name="message" id="message" rows="6" value={message} onChange={(e)=>{setMessage(undefined)}}  onBlur={messageHandleChange} ></textarea>
                         </div>
                         <ul className="actions">
                             <li><input type="submit" value="Send Message" className="special" /></li>
-                            <li><input type="reset" value="Clear" /></li>
+                            <li><input type="reset" value="Clear" onClick={()=>{setName(undefined);setEmail(undefined);setMessage('')}} /></li>
                         </ul>
                     </form>
                 </section>
