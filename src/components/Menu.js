@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
+/* eslint-disable jsx-a11y/anchor-is-valid, no-script-url*/
+
+
 const Menu = (props) => (
     <nav id="menu">
         <div className="inner">

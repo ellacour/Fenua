@@ -1,5 +1,7 @@
 import React from 'react'
 
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">

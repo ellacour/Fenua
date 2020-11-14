@@ -1,5 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
+import '../assets/css/styles.css'
 
 import '../assets/scss/main.scss'
 import Header from './Header'
