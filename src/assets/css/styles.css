@@ -50,6 +50,9 @@ body #banner.major {
     height: 100vh;
     min-height: 30em;
     max-height: 50em;
+    display: flex;
+    flex-direction: column;
+    padding: 12em 0 2em 0 !important;
 }
 
 body header.major > :first-child::after {
@@ -134,10 +137,16 @@ body #banner::after {
     height: 100%;
 }
 
+
 .major.hero-section{
     overflow: hidden;
 }
 
+button#unmuteButton{
+    z-index: 2;
+}
+
+  
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { }
 

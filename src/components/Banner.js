@@ -1,23 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import vidSource from '../assets/videos/waves.mp4'
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-const Banner = (props) => (
+const Banner = (props) => {
+
+    useEffect(() => {
+        const video = document.getElementById("banner-video")
+        const button = document.getElementById("unmuteButton");
+        
+        button.addEventListener("click", (event) => {
+            video.muted = !video.muted;
+          })
+    }, []);
+    
+
+    return (
     <section id="banner" className="major hero-section">
-        <video
-            className="video-player fullscreen"
-            // height="100%"
-            // width="100%"
-            loop
-            muted
-            autoPlay
-        >
-            <source
-                src={vidSource}
-                type="video/mp4"
-            />
-        </video>
         <div className="inner">
             <header className="major">
                 <h1 className="hero-title">Fenua project</h1>
@@ -35,15 +34,30 @@ const Banner = (props) => (
                 <li><a href="#one" className="button next scrolly">Get Started</a></li>
             </ul>
         </div> */}
+        <button id="unmuteButton">Sound</button>
         <div className="fenua-credits">
-            {/* <ul>
+            <ul>
                 <li><a href="https://www.instagram.com/ryan_borne/" className="">@ryanborne</a></li>
                 <li><a href="https://www.coralgardeners.org/" className="">@coralgardeners</a></li>
                 <li><a href="https://www.instagram.com/tikanuismith/" className="">@tikanuismith</a></li>
-            </ul> */}
+            </ul>
         </div>
-        <button id="unmuteButton">play</button>
+        <video
+            id="banner-video"
+            className="video-player fullscreen"
+            // height="100%"
+            // width="100%"
+            loop
+            muted
+            autoPlay
+        >
+            <source
+                src={vidSource}
+                type="video/mp4"
+            />
+        </video>
     </section>
-)
+    )
+}
 
 export default Banner
