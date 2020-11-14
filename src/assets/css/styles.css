@@ -15,7 +15,9 @@ body a.logo.fenua {
     line-height: 3.5rem;
     padding: 0 2em;
 }
-
+ p.justify {
+     text-align: justify;
+ }
 
 /* c14857a5-95ff-d745-a812-d4ac6dc00601 | blob:http://localhost:8000/c14857a5-95ff-d745-a812-d4ac6dc00601 */
 
@@ -52,7 +54,7 @@ body #banner.major {
     max-height: 50em;
     display: flex;
     flex-direction: column;
-    padding: 12em 0 2em 0 !important;
+    padding: 15em 0 2em 0 !important;
 }
 
 body header.major > :first-child::after {
@@ -144,6 +146,10 @@ body #banner::after {
 
 button#unmuteButton{
     z-index: 2;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: none;
 }
 
   

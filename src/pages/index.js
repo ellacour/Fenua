@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
@@ -75,12 +75,12 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Fenua</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
+                            <p className="justify">Fenua signifie « territoire », « terre », « pays » (ou souvent « île ») en tahitien. Fenua project a pour but de promouvoir la culture polynésienne, les acteurs locaux qui œuvrent pour la protection et la valorisation de son territoire, ainsi que toute initiative qui contribue à une meilleure connaissance, protection et à un plus grand respect du monde marin. Si tu souhaites participer à notre projet n’hésite pas à nous contacter.</p>
+                            {/* <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </section>
                 </div>
