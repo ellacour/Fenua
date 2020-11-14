@@ -48,7 +48,7 @@ const Contact = (props) => {
                         <div className="contact-method">
                             <span className="icon alt fa-envelope"></span>
                             <h3>Email</h3>
-                            <a href="#">rooarii.manuel@gmail.com</a>
+                            <a href="mailto:fenuaproject@gmail.com?subject=Contact%20Fenua%20project">fenuaproject@gmail.com</a>
                         </div>
                     </section>
                     <section>
