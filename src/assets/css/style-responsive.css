@@ -1,0 +1,72 @@
+ @media screen and (max-width: 1680px){}
+ @media screen and (max-width: 1280px){}
+ 
+ /* Ipad pro */
+ @media only screen 
+and (min-width: 1024px) and (max-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .video-player.fullscreen {
+        width: auto;
+        height: 100%;
+    }
+    body #banner.major {
+        /* padding: 15em 0 2em 0 !important; */
+        padding: 20em 0 2em 0 !important;
+    }
+}
+
+@media only screen 
+  and (min-width: 1366px) 
+  and (max-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .video-player.fullscreen {
+        width: auto;
+        height: 100%;
+    }
+    body #banner.major {
+        /* padding: 15em 0 2em 0 !important; */
+        padding: 20em 0 2em 0 !important;
+    }
+}
+
+ /* Ipad pro fin */
+
+ @media screen and (max-width: 980px){
+    .video-player.fullscreen{
+        width: auto;
+        height: 100%;
+    }
+
+    h1.hero-title {  
+        font-size: 4rem !important;
+    }
+
+    body #banner.major {
+        /* padding: 15em 0 2em 0 !important; */
+        padding: 20em 0 2em 0 !important;
+    }
+
+    body #header nav a.menu-link::before, #header nav a.menu-link::after {
+        background-size: 24px 32px !important;
+
+    }
+ }
+
+ @media screen and (max-width: 736px){
+    body #banner.major {
+        /* padding: 15em 0 2em 0 !important; */
+        padding: 13em 0 2em 0 !important;
+    }
+
+    h1.hero-title {
+        font-size: 3rem !important;
+    }
+    
+    h3.hero-subtitle{
+        font-size: 1rem !important;
+    }
+ }
+ @media screen and (max-width: 480px){}
+ @media screen and (max-width: 360px){}

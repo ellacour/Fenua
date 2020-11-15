@@ -14,10 +14,10 @@ const Banner = (props) => {
                 <h1 className="hero-title">Fenua project</h1>
                 <h3 className="hero-subtitle">Fenua website launch in early 2021</h3>
                 <ul className="icons hero-section-socials">
-                    <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-                    <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-                    <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-                    <li><a href="#" className="icon fa-github"><span className="label">Github</span></a></li>
+                    <li><a href="https://twitter.com/Fenuaproject" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/Fenuaproject" target="_blank" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/fenua_project/" target="_blank" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/ellacour/Fenua" target="_blank" className="icon fa-github"><span className="label">Github</span></a></li>
                 </ul>
             </header>
         </div>
@@ -28,11 +28,11 @@ const Banner = (props) => {
         </div> */}
         <button id="unmuteButton" className="button small" onClick={() => setMuted(!muted)}>Sound {muted ? 'on' : 'off'}</button>
         <div className="fenua-credits">
-            <ul>
+            {/* <ul>
                 <li><a href="https://www.instagram.com/ryan_borne/" className="">@ryanborne</a></li>
                 <li><a href="https://www.coralgardeners.org/" className="">@coralgardeners</a></li>
                 <li><a href="https://www.instagram.com/tikanuismith/" className="">@tikanuismith</a></li>
-            </ul>
+            </ul> */}
         </div>
         <video
             id="banner-video"

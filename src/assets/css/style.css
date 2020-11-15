@@ -4,6 +4,12 @@ body, #main {
     background: #1c1c1e !important;
 }
 
+body #menu {
+    /* background: rgba(36, 41, 67, 0.9); */
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+
 h1, h2, h3, a.logo {
     font-family: 'Heebo', sans-serif !important;
     font-weight: 900;
@@ -12,7 +18,7 @@ h1, h2, h3, a.logo {
 body a.logo.fenua {
     font-size: 1.6rem !important;
     letter-spacing: 0.2rem;
-    line-height: 3.5rem;
+    line-height: 3rem !important;
     padding: 0 2em;
 }
  p.justify {
@@ -69,13 +75,14 @@ h1.hero-title {
     text-transform: uppercase;
     font-size: 6rem !important;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 h3.hero-subtitle{
     font-size: 1.5rem !important;
     font-weight: 600 !important;
-    line-height: 0.5;
+    line-height: 1.5;
+    margin-top: 1em;
 }
 
 /* #banner.hero-section {
@@ -135,8 +142,8 @@ body #banner::after {
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -151,27 +158,3 @@ button#unmuteButton{
     right: 20px;
     box-shadow: none;
 }
-
-  
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
- }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .hero-section h1.is-size-1-widescreen{
-        font-size: 6rem !important;
-    }
-    .video-player.fullscreen{
-        width: 100%;
-        height: auto;
-    }
- }
-
