@@ -51,6 +51,40 @@ a {
   }
   
   
+/* e7c8a9c8-2f77-8240-afc6-74e03a7ac37f | blob:http://localhost:8000/e7c8a9c8-2f77-8240-afc6-74e03a7ac37f */
+
+body #banner {
+    /* height: 60vh; */
+    height: auto;
+  }
+  
+body #banner > .inner .content {
+    /* display: -moz-flex; */
+    /* display: -ms-flex; */
+    /* -moz-align-items: center; */
+    /* -ms-align-items: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+body #banner > .inner .content > * {
+    /* margin-left: 1.5em; */
+    /* margin-bottom: 0; */
+    margin-left: 0;
+    margin-bottom: 1.5em;
+  }
+  
+body   #banner > .inner .content p {
+    /* font-size: 0.7em; */
+    /* font-weight: 600; */
+    /* text-transform: uppercase; */
+    font-size: inherit;
+    font-weight: 400;
+    text-transform: none;
+  }
+  
+  
 
 /*Banner */
 

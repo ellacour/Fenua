@@ -6,10 +6,10 @@ const BannerLanding = (props) => (
             <header className="major">
                 <h1>Fenua project</h1>
             </header>
-            {/* <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
-            </div> */}
+            <div className="content">
+                <p className="justify">Si tu souhaites participer à notre projet n’hésite pas à nous contacter.</p>
+                <p className="justify">If you would like to participate in our project, please do not hesitate to contact us.</p>
+            </div>
         </div>
     </section>
 )
