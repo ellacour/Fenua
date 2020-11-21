@@ -34,6 +34,16 @@ and (min-width: 1024px) and (max-width: 1024px)
  /* Ipad pro fin */
 
  @media screen and (max-width: 980px){
+
+    #unmuteButton,
+    #banner-video {
+        display: none;
+    }
+
+    .fenua-credits{
+        display: block;
+    }
+    
     .video-player.fullscreen{
         width: auto;
         height: 100%;

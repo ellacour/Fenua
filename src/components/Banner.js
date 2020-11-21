@@ -1,11 +1,12 @@
-import React, {useState} from 'react'
-import vidSource from '../assets/videos/waves.mp4'
+// import React, {useState} from 'react'
+import React from 'react'
+// import vidSource from '../assets/videos/waves.mp4'
 
 /* eslint-disable jsx-a11y/anchor-is-valid, jsx-a11y/media-has-caption */
 
 const Banner = (props) => {
     
-    const [muted, setMuted] = useState(true);
+    // const [muted, setMuted] = useState(true);
 
     return (
     <section id="banner" className="major hero-section">
@@ -26,15 +27,15 @@ const Banner = (props) => {
                 <li><a href="#one" className="button next scrolly">Get Started</a></li>
             </ul>
         </div> */}
-        <button id="unmuteButton" className="button small" onClick={() => setMuted(!muted)}>Sound {muted ? 'on' : 'off'}</button>
+        {/* <button id="unmuteButton" className="button small" onClick={() => setMuted(!muted)}>Sound {muted ? 'on' : 'off'}</button> */}
         <div className="fenua-credits">
-            {/* <ul>
-                <li><a href="https://www.instagram.com/ryan_borne/" className="">@ryanborne</a></li>
-                <li><a href="https://www.coralgardeners.org/" className="">@coralgardeners</a></li>
-                <li><a href="https://www.instagram.com/tikanuismith/" className="">@tikanuismith</a></li>
-            </ul> */}
+            <ul>
+                <li><a href="https://www.instagram.com/steve3p_0/?hl=fr" className="">@stevehalama</a></li>
+                {/* <li><a href="https://www.coralgardeners.org/" className="">@coralgardeners</a></li>
+                <li><a href="https://www.instagram.com/tikanuismith/" className="">@tikanuismith</a></li> */}
+            </ul>
         </div>
-        <video
+        {/* <video
             id="banner-video"
             className="video-player fullscreen"
             // height="100%"
@@ -47,7 +48,7 @@ const Banner = (props) => {
                 src={vidSource}
                 type="video/mp4"
             />
-        </video>
+        </video> */}
     </section>
     )
 }

@@ -119,11 +119,11 @@ h3.hero-subtitle{
     margin-top: 1em;
 }
 
-/* #banner.hero-section {
-    background-image: url("../images/fenua-photo-test.jpg");
+#banner.hero-section {
+    background-image: url("../images/steve-halama-fenua-hero.jpg");
     background-color: #00000015;
     background-blend-mode: overlay;
-} */
+}
 
 /* 5f8d5d1a-6e61-da4e-9722-97f580b395dd | blob:http://localhost:8000/5f8d5d1a-6e61-da4e-9722-97f580b395dd */
 
@@ -139,6 +139,7 @@ body #banner::after {
 }
 
 .fenua-credits {
+    /* display: none; */
     position: absolute;
     bottom: 0;
     right: 0;
